@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.tomybdeveloper.zadatak_android.view.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.tomybdeveloper.zadatak_android.view.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.tomybdeveloper.zadatak_android.view.GlavniFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_glavni" >
+        <action
+            android:id="@+id/action_mainFragment_to_zaposleniFragment"
+            app:destination="@id/zaposleniFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_kupacFragment"
+            app:destination="@id/kupacFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_webServisFragment"
+            app:destination="@id/webServisFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_pregledKupcaFragment"
+            app:destination="@id/pregledKupcaFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_pregledZaposlenogFragment"
+            app:destination="@id/pregledZaposlenogFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/zaposleniFragment"
+        android:name="com.tomybdeveloper.zadatak_android.view.ZaposleniFragment"
+        android:label="fragment_zaposleni"
+        tools:layout="@layout/fragment_zaposleni" />
+    <fragment
+        android:id="@+id/kupacFragment"
+        android:name="com.tomybdeveloper.zadatak_android.view.KupacFragment"
+        android:label="fragment_kupac"
+        tools:layout="@layout/fragment_kupac" />
+    <fragment
+        android:id="@+id/webServisFragment"
+        android:name="com.tomybdeveloper.zadatak_android.view.WebServisFragment"
+        android:label="fragment_web_servis"
+        tools:layout="@layout/fragment_web_servis" />
+    <fragment
+        android:id="@+id/pregledKupcaFragment"
+        android:name="com.tomybdeveloper.zadatak_android.view.PregledKupcaFragment"
+        android:label="fragment_pregled_kupca"
+        tools:layout="@layout/fragment_pregled_kupca" />
+    <fragment
+        android:id="@+id/pregledZaposlenogFragment"
+        android:name="com.tomybdeveloper.zadatak_android.view.PregledZaposlenogFragment"
+        android:label="fragment_pregled_zaposlenog"
+        tools:layout="@layout/fragment_pregled_zaposlenog" />
+</navigation>

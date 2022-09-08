@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_400"
+    tools:context=".view.ZaposleniFragment">
+
+    <EditText
+        android:id="@+id/et_ime_zaposleni"
+        android:layout_width="285dp"
+        android:layout_height="55dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="@string/name"
+        android:inputType="textPersonName"
+        android:paddingStart="20dp"
+        android:textColorHint="@color/purple_800"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.22000003" />
+
+    <EditText
+        android:id="@+id/et_prezime_zaposleni"
+        android:layout_width="285dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="24dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="@string/prezime"
+        android:inputType="textPersonName"
+        android:paddingStart="20dp"
+        android:textColorHint="@color/purple_800"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_ime_zaposleni" />
+
+    <EditText
+        android:id="@+id/et_sifra_zaposleni"
+        android:layout_width="285dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="24dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="@string/sifra"
+        android:inputType="textPersonName"
+        android:paddingStart="20dp"
+        android:textColorHint="@color/purple_800"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_prezime_zaposleni" />
+
+    <EditText
+        android:id="@+id/et_grad_zaposleni"
+        android:layout_width="285dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="24dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="@string/grad"
+        android:inputType="textPersonName"
+        android:paddingStart="20dp"
+        android:textColorHint="@color/purple_800"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_sifra_zaposleni" />
+
+    <EditText
+        android:id="@+id/et_magacin_zaposleni"
+        android:layout_width="285dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="24dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="@string/magacin"
+        android:inputType="textPersonName"
+        android:paddingStart="20dp"
+        android:textColorHint="@color/purple_800"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_grad_zaposleni" />
+
+    <Button
+        android:id="@+id/buttonDodajZaposlenog"
+        android:layout_width="207dp"
+        android:layout_height="52dp"
+        android:text="@string/dodaj"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_magacin_zaposleni"
+        app:layout_constraintVertical_bias="0.19999999" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Zadatak-Android</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Ime</string>
+    <string name="user">User</string>
+    <string name="password">Password</string>
+    <string name="Register">Registruj se</string>
+    <string name="Login">Loginuj se</string>
+    <string name="ili">ili</string>
+    <string name="dodaj_zaposlenog">Dodaj zaposlenog</string>
+    <string name="dodaj_kupca">Dodaj kupca</string>
+    <string name="pregled_zaposlenog">Pregled zaposlenog</string>
+    <string name="web_servis">Web servis</string>
+    <string name="pregled_kupca">Pregled kupca</string>
+    <string name="prezime">Prezime</string>
+    <string name="sifra">Sifra</string>
+    <string name="grad">Grad</string>
+    <string name="magacin">Magacin</string>
+    <string name="dodaj">Dodaj</string>
+    <string name="pib">PIB</string>
+    <string name="naziv">Naziv</string>
+    <string name="odabir_zaposlenog">Odabir zaposlenog</string>
+    <string name="_12345678">12345678</string>
+    <string name="pripada">Pripada</string>
+    <string name="mirko">Mirko</string>
+    <string name="darko">Darko</string>
+    <string name="kupac123">Kupac123</string>
+    <string name="naziv_">Naziv :</string>
+    <string name="sifra_">Sifra :</string>
+    <string name="pib_">PIB :</string>
+    <string name="pripada_">Pripada :</string>
+    <string name="grad_">Grad :</string>
+    <string name="ime_">Ime :</string>
+    <string name="peric">Peric</string>
+    <string name="prezime_">Prezime :</string>
+    <string name="magacin_">Magacin :</string>
+    <string name="drugi_magacin">Drugi magacin</string>
+    <string name="negotin">Negotin</string>
+    <string name="ime_koktela">Ime koktela</string>
+    <string name="kategorija">Kategorija</string>
+    <string name="zaposleni">Zaposleni :</string>
+</resources>
